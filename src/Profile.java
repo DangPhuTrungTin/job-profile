@@ -15,7 +15,7 @@ public class Profile {
 	private static final String DSV_NAME="xinviec.txt";
 	private static final String HK_NAME="hanhkiem.txt";
 	private static final String LL_NAME="lylich.txt";
-	private static final String LL1_NAME="lylich.txt";
+	private static final String LL1_NAME="lylich1.txt";
 	private static final String[]  ATTRNAMEARRAY= {
 			"hvt",
 			"sinhngay",
@@ -51,12 +51,13 @@ public class Profile {
 			"ngheac",
 			"hienoac",
 			"ngayki",
-			"thangki"};
+			"thangki",
+			"namki"};
 	private static final ArrayList<String> ATTRNAMELIST=new ArrayList<String>(Arrays.asList(ATTRNAMEARRAY));
-	private static final int[] HK_LIST= {1,4,7,11,12,14,15,16,17,34,35};
-	private static final int[] SV_LIST={12,7,1,10,8,6,4,2,3,9,13,20,15,34,35};
+	private static final int[] HK_LIST= {1,4,7,11,12,14,15,16,17,34,35,36};
+	private static final int[] SV_LIST={12,7,1,10,8,6,4,2,3,9,13,20,15,34,35,36};
 	private static final int[] LL_LIST={19,18,27,32,29,30,31,26,21,24,25,33,28,13,12,11,7,6,2,23,22,3,4,1,20};
-	private static final int[] LL1_LIST={1,34,15,35};
+	private static final int[] LL1_LIST={1,34,15,35,36};
 	private static final int[] KEY_LIST={1,2};
  	public ArrayList<String> profile;
 	public String Concat(ArrayList<String> list) {

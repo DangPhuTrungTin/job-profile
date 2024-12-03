@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
-	<classpathentry kind="lib" path="miglayout15-swing.jar" sourcepath="miglayout-src.zip"/>
-	<classpathentry kind="lib" path="C:/Users/Dang Phu Trung Tin/OneDrive/workplace/Form/h2-1.4.199.jar" sourcepath="C:/Users/Dang Phu Trung Tin/OneDrive/workplace/Form/h2-1.4.199-sources.jar">
+	<classpathentry kind="lib" path="/home/lap14592/Code_zalogit/job-profile/lib/jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lap14592/Code_zalogit/job-profile/lib/javafx-swing-15.jar" sourcepath="miglayout-src.zip"/>
+	<classpathentry kind="lib" path="/home/lap14592/Code_zalogit/job-profile/lib/h2-1.4.199.jar" sourcepath="C:/Users/Dang Phu Trung Tin/OneDrive/workplace/Form/h2-1.4.199-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/C:/Users/Dang%20Phu%20Trung%20Tin/OneDrive/workplace/Form/h2-1.4.199-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/lap14592/Code_zalogit/job-profile/lib/commons-lang3-3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
