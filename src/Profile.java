@@ -78,7 +78,9 @@ public class Profile {
 		ArrayList<String> temp_value_list=new ArrayList<String>();
 		for (int index : num_list) {
 			temp_key_list.add(key_list.get(index-1));
-			temp_value_list.add(val_list.get(index-1));
+			String value = val_list.get(index-1);
+			if(value.isEmpty())value="\" \"";
+			temp_value_list.add(value);
 		}
 		return Concat(temp_key_list)+NEW_LINE+Concat(temp_value_list);
 	}
